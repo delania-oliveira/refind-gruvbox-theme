@@ -61,5 +61,3 @@ Scheme Collor - Gruvbox [https://github.com/morhetz/gruvbox]
 OS icons (Arch, Debian, Ubuntu, Manjaro, Fedora, Gentoo, MX, Mint, Linux) - Wikimedia [https://commons.wikimedia.org/wiki/Main_Page]
 Tools icons - Flaticon [https://www.flaticon.com/] 
 Font - Google fonts [https://fonts.google.com/] 
-
-## Licence
