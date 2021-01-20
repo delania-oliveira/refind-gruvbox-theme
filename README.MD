@@ -1,6 +1,6 @@
 # rEFInd Gruvbox theme
 
-## About
+## :star2: About
 This is a clean and minimal theme for rEFInd based on Gruvbox palette 
 
 rEFInd is an easy boot manager for computers based on the EFI and UEFI by Roderick W. Smith.
@@ -10,17 +10,17 @@ rEFInd is an easy boot manager for computers based on the EFI and UEFI by Roderi
 [rEFInd](https://www.rodsbooks.com/refind/)
 
 
-## Screenshots
+## :rainbow: Screenshots
 
 
-## How to install
+## :wrench: How to install
 
 1. Locate your rEFInd directory. For most system is commonly <code>/boot/efi/EFI/refind</code>
     - Create a folder called <code>themes</code> inside it, if it doesn't already exist 
 2. Clone this repository and copy into the <code>themes</code> directory
 3. Add <code>include themes/rEFInd-gruvbox/theme.conf</code> at the end of <code>refind.conf</code> on rEFInd directory.
 
-## How to edit
+## :pencil2: How to edit
 
 If you change the background or font, you can search lines and edit this on <code>theme.conf</code>
 
@@ -41,7 +41,7 @@ $ ./mkfont.sh Ubuntu-Mono 16 -1 ubuntu-mono-16.png
 
 That you can copy to directory <code>themes/refind-gruvbox/fonts/</code> and edit line on <code>theme.conf</code>
 
-## How to contribute
+## :raising_hand: How to contribute
 
 1. Fork this repository and clone your fork in your system
 2. Copy the png icons into the appropriate icons subfolders
@@ -54,13 +54,13 @@ That you can copy to directory <code>themes/refind-gruvbox/fonts/</code> and edi
 3. Tools - 48px x 48px
 4. Respect nomeclature like <code>os_arch</code> for system and <code>func_about</code> for tools. You can see all names on directory <code>boot/efi/EFI/refind/icons</code>
 
-## Issues
+## :space_invader: Issues
 
 If you are issues with theme, let me know =)
 
-## Credits
+## :sparkles: Credits
 
-Scheme Collor - [Gruvbox](https://github.com/morhetz/gruvbox)
-OS icons (Arch, Debian, Ubuntu, Manjaro, Fedora, Gentoo, MX, Mint, Linux) - [Wikimedia](https://commons.wikimedia.org/wiki/Main_Page)
-Tools icons - [Flaticon](https://www.flaticon.com/) 
+- Scheme Collor - [Gruvbox](https://github.com/morhetz/gruvbox)
+- OS icons (Arch, Debian, Ubuntu, Manjaro, Fedora, Gentoo, MX, Mint, Linux) - [Wikimedia](https://commons.wikimedia.org/wiki/Main_Page)
+- Tools icons - [Flaticon](https://www.flaticon.com/) 
 Font - [Google fonts](https://fonts.google.com/) 
