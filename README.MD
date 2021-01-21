@@ -25,7 +25,7 @@ rEFInd is an easy boot manager for computers based on the EFI and UEFI by Roderi
 If you change the background or font, you can search lines and edit this on <code>theme.conf</code>
 
 - Background
-<code>banner themes/refind-gruvbox/img/background.png</code>
+<code>banner themes/refind-gruvbox/img/bg.png</code>
 
 - Font
 <code>font themes/refind-gruvbox/fonts/.png</code>
@@ -35,8 +35,7 @@ Note: The font file is a simple image of the font's characters, which limits rEF
 You can convert an installed monospace font using <code>mkfont.sh</code> [script](https://github.com/agners/rEFInd/blob/master/fonts/mkfont.sh) like this:
 
 ```bash
-$ ./mkfont.sh Ubuntu-Mono 16 -1 ubuntu-mono-16.png
-
+$ bash ./mkfont.sh Ubuntu-Mono 16 -1 ubuntu-mono-16.png
 ```
 
 That you can copy to directory <code>themes/refind-gruvbox/fonts/</code> and edit line on <code>theme.conf</code>
@@ -47,7 +46,7 @@ That you can copy to directory <code>themes/refind-gruvbox/fonts/</code> and edi
 2. Copy the png icons into the appropriate icons subfolders
 3. Commit, upload your fork and them open a PR
 
-### Icons
+### :cherries: Icons
 
 1. The icons must be in scheme color Gruvbox palette 
 2. OS - 128px x 128px 
@@ -61,6 +60,6 @@ If you are issues with theme, let me know =)
 ## :sparkles: Credits
 
 - Scheme Collor - [Gruvbox](https://github.com/morhetz/gruvbox)
-- OS icons (Arch, Debian, Ubuntu, Manjaro, Fedora, Gentoo, MX, Mint, Linux) - [Wikimedia](https://commons.wikimedia.org/wiki/Main_Page)
+- OS icons (Arch, Debian, Ubuntu, Manjaro, Fedora, Gentoo, MX, Mint, Linux) - [Wikimedia](https://commons.wikimedia.org/wiki/Main_Page) - [SVGRepo](ttps://www.svgrepo.com)
 - Tools icons - [Flaticon](https://www.flaticon.com/) 
-Font - [Google fonts](https://fonts.google.com/) 
+- Font - [Google fonts](https://fonts.google.com/) 
