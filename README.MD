@@ -1,7 +1,7 @@
 # rEFInd Gruvbox theme
 
 ## :star2: About
-This is a clean and minimal theme for rEFInd based on Gruvbox palette 
+This is a clean theme for rEFInd based on Gruvbox palette 
 
 rEFInd is an easy boot manager for computers based on the EFI and UEFI by Roderick W. Smith.
 
@@ -18,27 +18,14 @@ rEFInd is an easy boot manager for computers based on the EFI and UEFI by Roderi
 1. Locate your rEFInd directory. For most system is commonly <code>/boot/efi/EFI/refind</code>
     - Create a folder called <code>themes</code> inside it, if it doesn't already exist 
 2. Clone this repository and copy into the <code>themes</code> directory
-3. Add <code>include themes/rEFInd-gruvbox/theme.conf</code> at the end of <code>refind.conf</code> on rEFInd directory.
+3. Add <code>include themes/refind-gruvbox-theme/theme.conf</code> at the end of <code>refind.conf</code> on refind directory.
 
 ## :pencil2: How to edit
 
 If you change the background or font, you can search lines and edit this on <code>theme.conf</code>
 
 - Background
-<code>banner themes/refind-gruvbox/img/bg.png</code>
-
-- Font
-<code>font themes/refind-gruvbox/fonts/.png</code>
-
-Note: The font file is a simple image of the font's characters, which limits rEFInd's font capabilities. You need a font with PNG format and monospace.
-
-You can convert an installed monospace font using <code>mkfont.sh</code> [script](https://github.com/agners/rEFInd/blob/master/fonts/mkfont.sh) like this:
-
-```bash
-$ bash ./mkfont.sh Ubuntu-Mono 16 -1 ubuntu-mono-16.png
-```
-
-That you can copy to directory <code>themes/refind-gruvbox/fonts/</code> and edit line on <code>theme.conf</code>
+<code>banner themes/refind-gruvbox-theme/img/bg.png</code>
 
 ## :raising_hand: How to contribute
 
@@ -62,4 +49,3 @@ If you are issues with theme, let me know =)
 - Scheme Collor - [Gruvbox](https://github.com/morhetz/gruvbox)
 - OS icons (Arch, Debian, Ubuntu, Manjaro, Fedora, Gentoo, MX, Mint, Linux) - [Wikimedia](https://commons.wikimedia.org/wiki/Main_Page) - [SVGRepo](ttps://www.svgrepo.com)
 - Tools icons - [Flaticon](https://www.flaticon.com/) 
-- Font - [Google fonts](https://fonts.google.com/) 
