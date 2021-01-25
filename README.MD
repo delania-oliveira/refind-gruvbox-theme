@@ -12,7 +12,7 @@ rEFInd is an easy boot manager for computers based on the EFI and UEFI by Roderi
 
 ## :rainbow: Preview
 
-<center><img src="./screenshots/screenshot.png" width="75%" hight="auto"></center>
+<p align="center"><img src="./screenshots/screenshot.png" width="75%" hight="auto"></p>
 
 ## :wrench: How to install
 
