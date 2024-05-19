@@ -61,7 +61,7 @@ resolution 1920 1080
 - Tools icons - [Flaticon](https://www.flaticon.com/) 
 
 ####  :pushpin: License
-[MIT License](https://github.com/sihann/refind-gruvbox-theme/blob/main/LICENSE)
+[MIT License](https://github.com/delania-oliveira/refind-gruvbox-theme/blob/main/LICENSE)
 
 -----
 <p align="center">Make with :yellow_heart: by Delania Oliveira.</p>
